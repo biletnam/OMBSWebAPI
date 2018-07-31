@@ -24,3 +24,4 @@ Route::get('movies/{id}', 'MovieController@show');
 Route::post('movies', 'MovieController@store');
 Route::put('movies/{id}', 'MovieController@update');
 Route::delete('movies/{id}', 'MovieController@delete');
+Route::post(register, 'Auth\RegisterController@register');
